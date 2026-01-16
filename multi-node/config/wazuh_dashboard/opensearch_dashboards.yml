@@ -22,8 +22,8 @@ opensearchDashboards.branding:
       defaultUrl: "/ui/logos/custom/customization.logo.healthcheck.png"
       darkModeUrl: "/ui/logos/custom/customization.logo.healthcheck.png"
    mark:
-      defaultUrl: "/ui/logos/custom/customization.logo.reports.png"
-      darkModeUrl: "/ui/logos/custom/customization.logo.reports.png"
+      defaultUrl: "/ui/logos/custom/customization.logo.app.png"
+      darkModeUrl: "/ui/logos/custom/customization.logo.app.png"
 
 opensearchDashboards.branding.applicationTitle: "Peaksoft Security Platform"
 
@@ -31,5 +31,5 @@ opensearchDashboards.branding.applicationTitle: "Peaksoft Security Platform"
 opensearchDashboards.branding.faviconUrl: "/ui/logos/custom/customization.logo.app.png"
 
 # Use the /ui/ path prefix for login brand image
-opensearch_security.basicauth.login.brandimage: "/ui/logos/custom/customization.logo.app.png"
+opensearch_security.basicauth.login.brandimage: "/ui/logos/custom/customization.healthcheck.png"
 opensearch_security.basicauth.login.subtitle: "Welcome to the Peaksoft Security Platform"
