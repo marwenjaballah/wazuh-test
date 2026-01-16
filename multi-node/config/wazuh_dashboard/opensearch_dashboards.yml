@@ -19,17 +19,17 @@ opensearch_security.session.keepalive: true
 opensearchDashboards.branding:
    loadingLogo:
       # Use the /ui/ path prefix when configured via YAML for dashboard-level assets
-      defaultUrl: "/ui/logos/custom/customization.logo.healthcheck.png"
-      darkModeUrl: "/ui/logos/custom/customization.logo.healthcheck.png"
-   mark:
       defaultUrl: "/ui/logos/custom/customization.logo.app.png"
       darkModeUrl: "/ui/logos/custom/customization.logo.app.png"
+   mark:
+      defaultUrl: "/ui/logos/custom/customization.logo.favicon.png"
+      darkModeUrl: "/ui/logos/custom/customization.logo.favicon.png"
 
 opensearchDashboards.branding.applicationTitle: "Peaksoft Security Platform"
 
 # Use the /ui/ path prefix for favicon
-opensearchDashboards.branding.faviconUrl: "/ui/logos/custom/customization.logo.app.png"
+opensearchDashboards.branding.faviconUrl: "/ui/logos/custom/customization.logo.favicon.png"
 
 # Use the /ui/ path prefix for login brand image
-opensearch_security.basicauth.login.brandimage: "/ui/logos/custom/customization.healthcheck.png"
+opensearch_security.basicauth.login.brandimage: "/ui/logos/custom/customization.logo.app.png"
 opensearch_security.basicauth.login.subtitle: "Welcome to the Peaksoft Security Platform"
